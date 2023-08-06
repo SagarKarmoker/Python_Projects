@@ -1,6 +1,4 @@
-requests
 streamlit
-python-dotenv
-fitz  
-os
+python-dotenv requests
+fitz
 
