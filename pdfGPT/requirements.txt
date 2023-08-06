@@ -1,2 +1,6 @@
-slate3k
+requests
 streamlit
+python-dotenv
+fitz  
+os
+
