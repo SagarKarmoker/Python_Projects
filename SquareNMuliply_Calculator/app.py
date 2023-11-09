@@ -38,6 +38,6 @@ divisor = st.number_input("Enter divisor:")
 # Create a button that triggers the calculation when clicked
 if st.button("Calculate"):
   # Display the code in a code block
-  st.code(mod_pow(base, exponent, divisor), "python")
+  st.code(mod_pow(base, exponent, divisor))
   # Write the result of the calculation
   st.write("The result is:", mod_pow(base, exponent, divisor))
