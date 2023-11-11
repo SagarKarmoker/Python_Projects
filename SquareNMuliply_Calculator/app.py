@@ -31,9 +31,9 @@ st.title("Modular Exponentiation Calculator")
 st.write("This app calculates the mod of base raised to exponent divided by divisor using a fast algorithm.")
 
 # Create three number input widgets for the base, exponent, and divisor
-base = st.number_input("Enter base:")
-exponent = st.number_input("Enter exponent:")
-divisor = st.number_input("Enter divisor:")
+base = int(st.number_input("Enter base:"))
+exponent = int(st.number_input("Enter exponent:"))
+divisor = int(st.number_input("Enter divisor:"))
 
 # Create a button that triggers the calculation when clicked
 if st.button("Calculate"):
