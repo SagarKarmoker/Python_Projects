@@ -17,7 +17,7 @@ def mod_pow(base, exponent, divisor):
     print("Intermediate result:", result)
     # If the bit is 1, multiply the result by the base and mod by the divisor
     if bit == "1":
-      st.code(result, '=' , '(', result, '*', base, ')' ,'%', divisor)
+      print(result, '=' , '(', result, '*', base, ')' ,'%', divisor)
       result = (result * base) % divisor
       # Print the final result
       print("Final result:", result, '\n')
